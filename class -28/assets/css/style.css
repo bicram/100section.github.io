@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position: relative;
+}
+ul{
+	list-style: none;
+}
+.single-price{
+	text-align: center;
+}
+.section-padding {
+    padding: 120px 0;
+}
+
+.price-tag-bg {
+	background-image: url(../images/bluesky.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+}
+
+.single-price-header-image {
+    box-shadow: 0px 0px 158px #00000082;
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.single-price {
+    margin: 60px 0;
+}
+.single-price-header-image:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    opacity: .0;
+}
+.single-price-header-image img {
+    height: 100px;
+    width: auto;
+    display: inline-block;
+}
+.single-price-content h3 {font-size: 40px;line-height: 2;text-align: center;}
+
+.single-price-content {
+    text-align: left;
+    padding: 0 52px;
+    background: white;
+}
+
+.single-price-content ul li {
+    line-height: 1.8;
+    font-size: 20px;
+}
+.single-price-content h2 span {
+    margin: 0;
+    padding: 0;
+    color: #FB5D6B;
+}
+
+.single-price-content span.doller-count {
+    font-size: 80px;
+    padding: 0 0px 0 24px;
+    margin-right: -6px;
+}
+
+.single-price-content
+ h2 {
+    position: relative;
+}
+
+.single-price-content
+ span.Doller-sign {
+    position: absolute;
+    top: 19px;
+    left: 0;
+}
+
+.single-price-content {}
+.single-price-content button {
+    width: 100%;
+    margin: 0 0 30px 0;
+}
