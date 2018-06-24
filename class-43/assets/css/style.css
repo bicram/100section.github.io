@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.header-area {
+    background: rgba(0, 0, 0, 0.07);
+}
+body {
+    position: relative;
+}
+
+.header-area {
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    padding: 20px 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mainmenu ul li:last-child a {
+    padding-right: 0;
+}
+
+.logo h1 {
+    padding: 8px 0px;
+    margin: 0;
+    background: none;
+    color: #fff;
+}
+
+.logo {
+}
+.hero-area {
+    position: relative;
+    z-index: 1;
+    background: url(../images/ddd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-area:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #00000094;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-content {
+    height: 100vh;
+}
+
+.display-table-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.signature-text {
+    width: 200px;
+    margin: auto;
+}
+.text h3 {
+    color: #fff;
+    margin-top: -25px;
+    font-size: 47px;
+}
+
+.text-border {
+    height: 5px;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.text-border div {
+    height: 2px;
+    width: 40%;
+    background: #fff;
+    position: relative;
+}
+
+.text-border-right {
+    float: right;
+}
+
+.text-border-left {
+    float: left;
+}
+
+.text-border-right:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 12px solid white;
+    border-bottom: 4px solid transparent;
+}
+.text-border-left:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 12px solid white;
+    border-bottom: 4px solid transparent;
+}
+p {
+    color: #fff;
+}
